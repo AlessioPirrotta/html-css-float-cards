@@ -7,7 +7,7 @@
 
 
 header{
-    border: 1px solid red;
+    
     width: 100%;
     height: 150px;
     vertical-align: middle;
@@ -22,7 +22,7 @@ header{
     }
 
 section{
-    border: 1px solid red;
+    
     margin-left: 32%;
     margin-right: 500px;
     margin-top: 30px;
@@ -38,7 +38,7 @@ p span{
   font-size: 25px;
 }
 figure{
-    border: 1px solid red;
+    
  margin-left: 23.5%;
  margin-right: 10%;
  margin-top: 50px;
@@ -54,10 +54,11 @@ figure{
     height: 150px;
     background-color: black;
     float: left;
-    margin:calc(50%/50)
+    margin:calc(50%/50);
+    
 }
 .card2{
-    border: 1px solid red;
+    
     width: 500px;
     height: 150px;
     background-color: black;
@@ -68,8 +69,6 @@ figure{
     
 }
 
-
-
 .clearfix::after{
     content: "";
     clear: both;
@@ -78,4 +77,43 @@ figure{
 
 img{
  height: 150px;
+}
+
+
+h2{
+    color: white;
+    display: inline-block;
+    vertical-align: 400%;
+}
+
+h3{
+    color: white;
+    display: inline-block;
+    vertical-align: 300%;
+    margin-left: -140px;
+    
+
+
+}
+.mail{
+    color: white;
+    display: inline-block;
+
+    
+}
+
+#a{
+    margin-left: -150px ;
+
+}
+
+#b{
+    margin-left: -160px;
+}
+
+.mail{
+    font-size: 25px;
+    color:#4CAAC5;
+    vertical-align: 20px;
+    margin-left: -80px;
 }
